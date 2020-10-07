@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://lambord9.github.io/atom.xml" rel="self"/>
   <link href="http://lambord9.github.io/"/>
-  <updated>2020-10-07T15:53:05+07:00</updated>
+  <updated>2020-10-07T16:50:49+07:00</updated>
   <id>http://lambord9.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -14,11 +14,31 @@
 
   
   <entry>
+    <title type="html"><![CDATA[This Is the Second Post]]></title>
+    <link href="http://lambord9.github.io/blog/2020/10/07/this-is-the-second-post/"/>
+    <updated>2020-10-07T16:27:53+07:00</updated>
+    <id>http://lambord9.github.io/blog/2020/10/07/this-is-the-second-post</id>
+    <content type="html"><![CDATA[<p>Test for RSS
+123
+123
+<img src="https://placekitten.com/96/140"></p>
+
+<!--more-->
+
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Pentesterlab - Web for Pentester]]></title>
     <link href="http://lambord9.github.io/blog/2020/10/07/pentesterlab-web-for-pentester/"/>
     <updated>2020-10-07T15:02:38+07:00</updated>
     <id>http://lambord9.github.io/blog/2020/10/07/pentesterlab-web-for-pentester</id>
-    <content type="html"><![CDATA[<h3>Example 1</h3>
+    <content type="html"><![CDATA[<p>This is the description of the first post and test RSS (tag more)</p>
+
+<!--more-->
+
+
+<h3>Example 1</h3>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
